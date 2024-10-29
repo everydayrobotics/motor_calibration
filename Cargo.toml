@@ -1,0 +1,9 @@
+[package]
+name = "motor-calibration"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+slcan = { git = "https://github.com/jmaygarden/slcan", branch = "master" }
+serial = "*"
+serialport = "*"
